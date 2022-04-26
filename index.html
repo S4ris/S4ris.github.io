@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Browar Amber</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="img/logo.jpg"  class="logo"></a>
+            <ul>
+                <li><a href="#">Aktualności</a></li>
+                <li><a href="#">Firma</a></li>
+                <li><a href="#">Produkty</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Szlachetność bursztynu w każdej kropli <br>
+                <span>Browar Amber</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laboriosam quo, vero, quaerat sed quasi debitis distinctio qui incidunt aliquid magni expedita! Porro exercitationem corporis tenetur, adipisci reprehenderit mollitia facilis.
+                </p>
+                <a href="#">Poznaj nas</a>
+                </div>
+                <div class="imgBox">
+                    <img src="img/kozlak.png" class="kozlak">
+                </div>
+        </div>   
+        <ul class="thumb">
+            <li><img src="img/apa.png" onclick="imgSlider('img/apa.png')"></li>
+            <li><img src="img/chili.png" onclick="imgSlider('img/chili.png')"></li>
+            <li><img src="img/czarny_bez.png" onclick="imgSlider('img/czarny_bez.png')"></li>
+            <li><img src="img/grand.png" onclick="imgSlider('img/grand.png')"></li>
+            <li><img src="img/johannes.png" onclick="imgSlider('img/johannes.png')"></li>
+            <li><img src="img/nonal_ipa.png" onclick="imgSlider('img/nonal_ipa.png')"></li>
+            <li><img src="img/przeniczniak.png" onclick="imgSlider('img/przeniczniak.png')"></li>
+            <li><img src="img/zlote_lwy.png" onclick="imgSlider('img/zlote_lwy.png')"></li>
+            <li><img src="img/zywe.png" onclick="imgSlider('img/zywe.png')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#" class="fa fa-twitter"></a></li>
+            <li><a href="#" class="fa fa-instagram"></a></li>
+            <li><a href="#" class="fa fa-linkedin"></a></li>
+        </ul>
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.kozlak').src=anything;
+        }
+    </script>
+</body>
+</html>
